@@ -1,4 +1,4 @@
-package dk.offlines.whatisinthefridge;
+package dk.offlines.whatisinthefridge.fragments;
 
 import android.database.Cursor;
 import android.graphics.Color;
@@ -24,8 +24,10 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import dk.offlines.whatisinthefridge.Product.Product;
-import dk.offlines.whatisinthefridge.Product.ProductListAdapter;
+import dk.offlines.whatisinthefridge.DatabaseHelper;
+import dk.offlines.whatisinthefridge.product.Product;
+import dk.offlines.whatisinthefridge.product.ProductListAdapter;
+import dk.offlines.whatisinthefridge.R;
 
 public class HomeFragment extends Fragment {
     private static final String TAG = "HomeFragment";
@@ -97,7 +99,7 @@ public class HomeFragment extends Fragment {
             listData.add(new Product(Integer.parseInt(data.getString(0)), data.getString(1), data.getString(2), data.getString(3)));
         }
 
-        final ProductListAdapter adapter = new ProductListAdapter(this.getContext(), R.layout.product_item_list, listData) {
+        final ProductListAdapter adapter = new ProductListAdapter(this.getContext(), R.menu.product_item_list, listData) {
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
                 View view = super.getView(position, convertView, parent);

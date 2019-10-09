@@ -1,4 +1,4 @@
-package dk.offlines.whatisinthefridge;
+package dk.offlines.whatisinthefridge.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -17,6 +17,9 @@ import com.google.android.material.tabs.TabLayout;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+
+import dk.offlines.whatisinthefridge.DatabaseHelper;
+import dk.offlines.whatisinthefridge.R;
 
 public class AddProductFragment extends Fragment {
     DatabaseHelper mDatabaseHelper;

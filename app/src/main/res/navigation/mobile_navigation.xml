@@ -7,8 +7,12 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="dk.offlines.whatisinthefridge.HomeFragment"
-        android:label="Home"
+        android:name="dk.offlines.whatisinthefridge.fragments.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_recipe"
+        android:name="dk.offlines.whatisinthefridge.fragments.RecipeFragment"
         tools:layout="@layout/fragment_home" />
 
 </navigation>

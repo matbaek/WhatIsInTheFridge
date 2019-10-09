@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/roundbutton"
+        android:title="Køleskab/Fryser" />
+
+    <item
+        android:id="@+id/navigation_recipe"
+        android:icon="@drawable/roundbutton"
+        android:title="Opskrifter" />
+
+</menu>

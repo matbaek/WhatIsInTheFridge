@@ -1,4 +1,4 @@
-package dk.offlines.whatisinthefridge.Product;
+package dk.offlines.whatisinthefridge.product;
 
 public class Product {
     private int id;
