@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">What is in the fridge</string>
+    <string name="name">Navn</string>
+    <string name="produktName">Produkt navn</string>
+    <string name="productExpireDays">Holdbarhed (dage)</string>
+    <string name="save">Gem</string>
+    <string name="type">Køleskab / Fryser</string>
+    <string name="back">Tilbage</string>
+</resources>
